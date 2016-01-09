@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "es2015",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "**/*.ts",
+        "**/*.tsx",
+        "!node_modules/**"
+    ],
+    "compileOnSave": true,
+    "buildOnSave": true,
+    "files": [
+        "js/app.ts",
+        "typings/canvasScreenshot/settings.d.ts",
+        "typings/promises-a-plus/promises-a-plus.d.ts",
+        "typings/tsd.d.ts",
+        "typings/webfontloader/webfontloader.d.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
